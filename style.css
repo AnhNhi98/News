@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+}
+#head {
+    background-color: rgba(180, 75, 180, 0.938);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head .kinh_lup {
+    font-size: 30px;
+    cursor: pointer;
+}
+.close {
+    cursor: pointer;
+}
+#search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    color: black;
+    padding: 40px 10px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+#search > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#btnTim {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: grey;
+    color: whitesmoke;
+}
+#noi_dung_tim {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+    color: grey;
+}
+#box {
+    width: 100%;
+    position: fixed;
+    display: none;
+    z-index: 6;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.content > img {
+    width: 35%;
+    height: 300px;
+}
+.content > div {
+    width: 60%;
+    line-height: 200%;
+}
+.opacity{
+    opacity: 0.5;
+}
+    
